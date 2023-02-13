@@ -11,7 +11,7 @@ export const Counter = ({ options, onLeaveFeedback }) => (
         name={option}
         onClick={onLeaveFeedback}
       >
-        {option[0].toUpperCase() + option.slice(1)}
+        {option[0] + option.slice(1)}
       </ButtonsItem>
     ))}
   </Buttons>
